@@ -10,8 +10,9 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 
 #### Hyödyt
 
+- Data suoraan luettavissa (JSON).
 - Käsittelypalvelimen rakentaminen on melko yksinkertaista.
-- Yksi dataruutu on hyvin kevyt (~20KB).
+- Yksi dataruutu on hyvin kevyt (~20 KB).
 - Data voidaan suoratoistaa reaaliaikaisesti alkuperäiseltä palvelimelta käsittelypalvelimelle.
 
 #### Haitat
@@ -24,20 +25,22 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 
 #### Hyödyt
 
-- Päivitysväli on 1/64 sekuntia (~15ms).
+- Päivitysväli on 1/64 sekuntia (~15ms) tai 1/128 sekuntia (~8ms).
 - Sisältää kaikki mahdolliset pelaajan ja maailman tilat.
 - "Tiheämpi" data mahdollistaa sovelluksen loppukäyttäjälle näytettävät sulavammat ja tarkemmat animaatiot.
 
 #### Haitat
 
-- Yhden ottelun datan tiedostokoko on melko suuri (>500MB).
+- Ei suoraan luettavassa muodossa ilman omaa parseria.
+- Yhden ottelun datan tiedostokoko on melko suuri (~400-900 MB).
 - Dataa täytyy käsitellä (parse) perusteellisemmin ennen lähettämistä sovellukseen.
 - Vaatii enemmän verkkolinkiltä enemmän kaistanleveyttä, joten tämä asettaa alkuperäisen ja käsittelypalvelimen väliselle linkille suuremmat vaatimukset.
-- Demo-tiedostoja ei voida suoratoistaa reaaliaikaisesti alkuperäiseltä palvelimelta, ellei sen rinnalle luoda erillistä palvelinsovellusta (onko varmasti näin?).
+- Demo-tiedostoja ei voida suoratoistaa reaaliaikaisesti alkuperäiseltä palvelimelta, ellei sen rinnalle luoda erillistä palvelinsovellusta (onko varmasti näin ja onko edes mahdollista?).
 
 ## Linkit
 
-- [https://healeycodes.com/rendering-counter-strike-demos-in-the-browser](https://healeycodes.com/rendering-counter-strike-demos-in-the-browser)
-- [https://github.com/markus-wa/demoinfocs-golang](https://github.com/markus-wa/demoinfocs-golang)
-- [https://github.com/pnxenopoulos/awpy](https://github.com/pnxenopoulos/awpy)
-- [https://www.charlieintel.com/counter-strike/what-is-sub-tick-in-cs2-servers-276995/](https://www.charlieintel.com/counter-strike/what-is-sub-tick-in-cs2-servers-276995/)
+- [Rendering Counter-Strike Demos in the Browser](https://healeycodes.com/rendering-counter-strike-demos-in-the-browser)
+- [demoinfocs-golang - CS2 Demo Parser](https://github.com/markus-wa/demoinfocs-golang)
+- [CS2 Demo Parsing, Analytics and Visualization in Python](https://github.com/pnxenopoulos/awpy)
+- [What is sub-tick in CS2? 64 vs 128 tick rate in CS2](https://www.charlieintel.com/counter-strike/what-is-sub-tick-in-cs2-servers-276995/)
+- [HLTV - demoja](https://www.hltv.org/results?content=demo)
