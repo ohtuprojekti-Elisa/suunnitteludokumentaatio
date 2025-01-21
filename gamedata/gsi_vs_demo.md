@@ -5,9 +5,9 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 ---
 ## Sanasto
 
-==Alkuperäinen palvelin== = CS2 tai muu taho, joka lähettää pelidataa.  
-==Käsittelypalvelin== = Meidän toteutuksemme pelidatan käsittelyyn ja suoratoistoon loppukäyttäjälle.  
-==Sovellus== = Loppukäyttäjän operoima lisätyn todellisuuden sovellus.
+- Alkuperäinen palvelin = CS2 tai muu taho, joka lähettää pelidataa.  
+- Käsittelypalvelin = Meidän toteutuksemme pelidatan käsittelyyn ja suoratoistoon loppukäyttäjälle.  
+- Sovellus = Loppukäyttäjän operoima lisätyn todellisuuden sovellus.
 
 ---
 ## GSI-data
