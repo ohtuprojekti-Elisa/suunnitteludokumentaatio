@@ -39,7 +39,8 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 - Demo-tiedostoja ei voida suoratoistaa reaaliaikaisesti alkuperäiseltä palvelimelta, ellei sen rinnalle luoda erillistä palvelinsovellusta (onko varmasti näin?).
 
 ---
-### Linkit
+## Linkit
 
 - [https://healeycodes.com/rendering-counter-strike-demos-in-the-browser](https://healeycodes.com/rendering-counter-strike-demos-in-the-browser)
 - [https://github.com/markus-wa/demoinfocs-golang](https://github.com/markus-wa/demoinfocs-golang)
+- [https://github.com/pnxenopoulos/awpy](https://github.com/pnxenopoulos/awpy)
