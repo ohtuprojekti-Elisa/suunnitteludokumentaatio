@@ -1,2 +1,2 @@
-# suunnitteludokumentaatio
-Ohtu-projektiin liittyvä salainen suunnitteludokumentaatio
+# Suunnitteludokumentaatio
+Ohtu-projektiin liittyvä "salainen" suunnitteludokumentaatio. ;)
