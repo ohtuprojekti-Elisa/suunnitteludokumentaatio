@@ -28,6 +28,7 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 - Päivitysväli on 1/64 sekuntia (~15ms) tai 1/128 sekuntia (~8ms).
 - Sisältää kaikki mahdolliset pelaajan ja maailman tilat.
 - "Tiheämpi" data mahdollistaa sovelluksen loppukäyttäjälle näytettävät sulavammat ja tarkemmat animaatiot.
+- Sisältää kaikki(?) pelaajan eri tilat muun muassa: isWalking, isAirborne ja isDucking.
 
 #### Haitat
 
@@ -41,6 +42,7 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 
 - [Rendering Counter-Strike Demos in the Browser](https://healeycodes.com/rendering-counter-strike-demos-in-the-browser)
 - [demoinfocs-golang - CS2 Demo Parser](https://github.com/markus-wa/demoinfocs-golang)
-- [CS2 Demo Parsing, Analytics and Visualization in Python](https://github.com/pnxenopoulos/awpy)
+- [CS2 Demo Parsing, Analytics and Visualization in Python (AWPY)](https://github.com/pnxenopoulos/awpy)
+	- [Example Parser JSON](https://awpy.readthedocs.io/en/latest/parser_output.html)
 - [What is sub-tick in CS2? 64 vs 128 tick rate in CS2](https://www.charlieintel.com/counter-strike/what-is-sub-tick-in-cs2-servers-276995/)
 - [HLTV - demoja](https://www.hltv.org/results?content=demo)
