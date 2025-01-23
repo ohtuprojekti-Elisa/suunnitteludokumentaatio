@@ -1,6 +1,5 @@
 # Pelidata: GSI vs. Demo
 
-Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 ## Sanasto
 
 - Alkuperäinen palvelin = CS2 tai muu taho, joka lähettää pelidataa.  
@@ -17,7 +16,7 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 
 #### Haitat
 
-- Päivitysväli on vain 1/3 sekuntia (~333ms).
+- Päivitysväli on vain 1/3 sekuntia (~333 ms).
 - Ei sisällä kaikkia mahdollisia pelaajan tiloja: seisominen/kyykky, juokseminen/käveleminen, ym.
 - Yhteys alkuperäisen ja käsittelypalvelimen välillä tapahtuu REST API:n kautta, mikä ei ole kovin tehokas reaaliaikaiseen tiedonsiirtoon.
 
@@ -25,7 +24,7 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 
 #### Hyödyt
 
-- Päivitysväli on 1/64 sekuntia (~15ms) tai 1/128 sekuntia (~8ms).
+- Päivitysväli on 1/64 sekuntia (~15 ms) tai 1/128 sekuntia (~8 ms).
 - Sisältää kaikki mahdolliset pelaajan ja maailman tilat.
 - "Tiheämpi" data mahdollistaa sovelluksen loppukäyttäjälle näytettävät sulavammat ja tarkemmat animaatiot.
 - Sisältää kaikki(?) pelaajan eri tilat muun muassa: isWalking, isAirborne ja isDucking.
@@ -40,9 +39,12 @@ Ajatuksia pohdittavaksi ennen seuraavaa asiakaspalaveria.
 
 ## Linkit
 
+- [gsi_cs2](https://docs.rs/gsi-cs2/latest/gsi_cs2/index.html)
 - [Rendering Counter-Strike Demos in the Browser](https://healeycodes.com/rendering-counter-strike-demos-in-the-browser)
 - [demoinfocs-golang - CS2 Demo Parser](https://github.com/markus-wa/demoinfocs-golang)
 - [CS2 Demo Parsing, Analytics and Visualization in Python (AWPY)](https://github.com/pnxenopoulos/awpy)
 	- [Example Parser JSON](https://awpy.readthedocs.io/en/latest/parser_output.html)
 - [What is sub-tick in CS2? 64 vs 128 tick rate in CS2](https://www.charlieintel.com/counter-strike/what-is-sub-tick-in-cs2-servers-276995/)
 - [HLTV - demoja](https://www.hltv.org/results?content=demo)
+- [Compressing CS2 Demos](https://healeycodes.com/compressing-cs2-demos)
+- [Demo parser for Counter-Strike 2](https://github.com/LaihoE/demoparser)
