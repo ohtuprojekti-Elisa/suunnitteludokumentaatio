@@ -1,2 +1,3 @@
 # Suunnitteludokumentaatio
-Ohtu-projektiin liittyvä "salainen" suunnitteludokumentaatio. ;)
+
+Elisa Esports Immersive -ohtuprojektiin liittyvä tapahtuma- ja suunnitteludokumentaatio.
