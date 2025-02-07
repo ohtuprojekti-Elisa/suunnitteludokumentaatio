@@ -39,14 +39,14 @@ flowchart LR
       gh(Push triggers GH Actions workflow) -.-> ac[(Workflow: sync backend/*  to Gitlab - version.helsinki.fi)]
   end
 
-  ac --> repo
+  ac --"Gitlab token"--> repo
 
   subgraph version.helsinki.fi
       repo[(eeict-backend)] -.-> wh(Push triggers GET to OpenShift-webhook)
   end
 
-  wh -.-> osbc
-  osbc --> repo
+  wh -."OpenShift token".-> osbc
+  osbc --"Gitlab token"--> repo
 
   subgraph OpenShift
       osbc[(BuildConfig: clones backend/data_processing/* and builds new image from it)] -.-> osis(ImageStream: receives latest image)
