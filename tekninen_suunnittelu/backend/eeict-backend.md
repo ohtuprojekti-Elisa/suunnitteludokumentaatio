@@ -15,6 +15,9 @@ Tietoa projektissa käytetyistä järjestelmistä ja niiden yhteistoiminnasta.
     - Testi
         - https://console-openshift-console.apps.ocp-test-0.k8s.it.helsinki.fi/
 
+- Konttien päivityksestä
+    - https://learn.redhat.com/t5/Containers-DevOps-OpenShift/Automatically-restarting-pods-when-the-secret-or-config-map-gets/td-p/28015
+
 #### Projektin tuotantoympäristö (ohtuprojekti-staging/eeict-backend)
 - DeploymentConfig
     - Testi
