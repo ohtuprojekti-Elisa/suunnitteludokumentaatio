@@ -1,3 +1,3 @@
 # Suunnitteludokumentaatio
 
-Elisa Esports Immersive -ohtuprojektiin liittyvä tapahtuma- ja suunnitteludokumentaatio.
+Elisa Esports Immersive Coaching Tool -ohtuprojektiin liittyvä tapahtuma- ja suunnitteludokumentaatio.
