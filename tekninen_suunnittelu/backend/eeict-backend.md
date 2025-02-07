@@ -10,7 +10,7 @@ Tietoa projektissa käytetyistä järjestelmistä ja niiden yhteistoiminnasta.
 
 #### OpenShift (konttialusta)
 - OpenShift web-konsoli
--     - Tuotanto
+    - Tuotanto
         - https://console-openshift-console.apps.ocp-prod-0.k8s.it.helsinki.fi/
     - Testi
         - https://console-openshift-console.apps.ocp-test-0.k8s.it.helsinki.fi/
@@ -34,23 +34,24 @@ Tietoa projektissa käytetyistä järjestelmistä ja niiden yhteistoiminnasta.
 
 ```mermaid
 flowchart LR
-  subgraph Github - project repository
-  push[(Push to backend/*)] -.-> gh
-  gh(Push triggers GH Actions workflow) -.-> ac[(Workflow: sync backend/*  to Gitlab - version.helsinki.fi)]
+  subgraph Github
+      push[(Push to backend/*)] -.-> gh
+      gh(Push triggers GH Actions workflow) -.-> ac[(Workflow: sync backend/*  to Gitlab - version.helsinki.fi)]
   end
 
   ac --> repo
 
-  subgraph version.helsinki.fi - temp repository
-  repo[(eeict-backend)] -.-> wh(Push triggers GET to OpenShift-webhook)
+  subgraph version.helsinki.fi
+      repo[(eeict-backend)] -.-> wh(Push triggers GET to OpenShift-webhook)
   end
 
-  wh <--> osbc
+  wh -.-> osbc
+  osbc --> repo
 
-  subgraph OpenShift - container platform
-  osbc[(BuildConfig: clones specific folder from repo)] -.-> osis(ImageStream: receive built image)
-  osis -.-> osdc(DeploymentConfig: update running container with latest image)
+  subgraph OpenShift
+      osbc[(BuildConfig: clones backend/data_processing/* and builds new image from it)] -.-> osis(ImageStream: receives latest image)
+      osis -.-> osdc(DeploymentConfig: updates running pod with latest image)
+      osdc -.-> osp(Pod: serves data to client)
   end
-
 ```
 
