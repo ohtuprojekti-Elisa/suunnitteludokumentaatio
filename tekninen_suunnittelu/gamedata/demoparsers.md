@@ -31,7 +31,7 @@
 - Demon kelaaminen edestakaisin mahdollista
 
 #### Haitat
-- Kirjasto on vielä kehityksen alla, joten rajapinta saattaa muuttua.
+- Kirjasto on vielä kehityksen alla, joten rajapinta saattaa muuttua
 - Suppea dokumentaatio
 
 ## Linkit
