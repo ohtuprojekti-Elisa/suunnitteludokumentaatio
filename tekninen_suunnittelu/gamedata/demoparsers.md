@@ -10,7 +10,7 @@
 #### Haitat
 - Dokumentaatio suppeahko
 
-## deominfocs-golang
+## demominfocs-golang
 
 #### Hyödyt
 - Nopea parserin suorituskyky
