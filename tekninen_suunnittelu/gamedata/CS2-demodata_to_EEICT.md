@@ -35,6 +35,7 @@ flowchart LR
 - https://github.com/markus-wa/demoinfocs-golang
 - Tallentaa JSON-datan saman nimiseen tiedostoon.
 - Mahdollisuus määrittää JSON-tiedostoon tulevien tapahtumien määrä/sekunti.
+    - CS2 tukee maksimissaan 64/128 tapahtumaa/sekunti, riippuen CS2 palvelimen asetuksista.
 #### Interval-transmitter
 - Vastuu: pilkkoo JSON-datan EEICT-sovellukselle siirtoa varten.
 - Lukee parserilta saadun JSON-datan muistiin ja siirtää sen objekti kerrallaan, määrätyllä intervallilla, eteenpäin.
