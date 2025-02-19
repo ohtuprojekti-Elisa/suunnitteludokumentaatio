@@ -1,6 +1,6 @@
 # CS2 demodatan siirto EEICT-sovellukseen
 
-Backendin rakenne kuvattu kehittäjän näkökulmasta.
+Backendin sovellusarkkitehtuuri kuvattuna kehittäjän näkökulmasta.
 ## Arkkitehtuurikuvaus
 
 ```mermaid
@@ -31,13 +31,15 @@ flowchart LR
 ## Komponenttien vastuut
 
 #### Demoinfocs-golang
-- Vastuu: CS2 demodata --> JSON -parseri.
+- Vastuu: CS2 \*.dem --> JSON -parseri.
 - https://github.com/markus-wa/demoinfocs-golang
-- Tallentaa JSON-datan saman nimiseen tiedostoon.
+- Tallentaa JSON-datan saman nimiseen tiedostoon kuin lähdetiedosto.
 - Mahdollisuus määrittää JSON-tiedostoon tulevien tapahtumien määrä/sekunti.
-    - CS2 tukee maksimissaan 64/128 tapahtumaa/sekunti, riippuen CS2 palvelimen asetuksista.
+    - CS2 tukee enimmillään 64/128 tapahtumaa/sekunti, riippuen CS2 palvelimen asetuksista.
+    - Kirjoittaa asetetun intervallin JSON-tiedostoon.
 #### Interval-transmitter
 - Vastuu: pilkkoo JSON-datan EEICT-sovellukselle siirtoa varten.
-- Lukee parserilta saadun JSON-datan muistiin ja siirtää sen objekti kerrallaan, määrätyllä intervallilla, eteenpäin.
+- Lukee parserilta saadun JSON-datan ja intervallin muistiin
+- Siirtää JSON-datan objekti kerrallaan, aiemmin määritetyllä tapahtumaa/sekunti intervallilla, eteenpäin seuraavalle komponentille.
 #### Websocket-server
 - Vastuu: muodostaa websocket protokollaa hyödyntäen yhteyden backendin ja EEICT-sovelluksen välille.
