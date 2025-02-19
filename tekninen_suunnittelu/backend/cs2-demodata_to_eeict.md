@@ -13,23 +13,30 @@ flowchart LR
     A --> bck
 
     subgraph bck [**BACKEND**]
+        orch("Orchestrator (python)")
+        orch -."subprocess.run".-> B
+        orch --> B
+        orch -.-> D
+        orch -.-> E
         direction TB
-        B("Demoinfocs-golang (parser)")
+        B("Demoinfocs-golang -parser (binary)")
         B --> C
         C@{ shape: doc, label: "$demodata.JSON"}
         C --> D
-        D("Interval-transmitter (JSON)") 
+        D("Interval-transmitter (python)") 
         D --> E
     end
 
-    E("Websocket-server")
+    E("Websocket-server (python)")
     bck <--"websocket"--> F
     F{{"EEICT (Unity/C#)"}}
-
+    
 ```
 
 ## Komponenttien vastuut
 
+#### Orchestrator
+- Vastuu: vastaa demodatan siirtymisestä eri komponenttien välillä.
 #### Demoinfocs-golang
 - Vastuu: CS2 \*.dem --> JSON -parseri.
 - https://github.com/markus-wa/demoinfocs-golang
@@ -39,7 +46,7 @@ flowchart LR
     - Kirjoittaa asetetun intervallin JSON-tiedostoon.
 #### Interval-transmitter
 - Vastuu: pilkkoo JSON-datan EEICT-sovellukselle siirtoa varten.
-- Lukee parserilta saadun JSON-datan ja intervallin muistiin
+- Lukee parserilta saadun JSON-datan ja intervallin muistiin.
 - Siirtää JSON-datan objekti kerrallaan, aiemmin määritetyllä tapahtumaa/sekunti intervallilla, eteenpäin seuraavalle komponentille.
 #### Websocket-server
 - Vastuu: muodostaa websocket protokollaa hyödyntäen yhteyden backendin ja EEICT-sovelluksen välille.
