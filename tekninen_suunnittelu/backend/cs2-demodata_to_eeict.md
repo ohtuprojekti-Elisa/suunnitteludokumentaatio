@@ -1,4 +1,4 @@
-# CS2 demodatan siirto EEICT-sovellukseen
+# CS2 demodatan siirto EEICT-sovellukseen (WIP)
 
 Backendin sovellusarkkitehtuuri kuvattuna kehittäjän näkökulmasta.
 ## Arkkitehtuurikuvaus
@@ -19,7 +19,7 @@ flowchart LR
         orch -.-> D
         orch -.-> E
         direction TB
-        B("Demoinfocs-golang -parser (binary)")
+        B("Parser (Demoinfocs-golang)")
         B --> C
         C@{ shape: doc, label: "$demodata.JSON"}
         C --> D
@@ -27,7 +27,7 @@ flowchart LR
         D --> E
     end
 
-    E("Websocket-server (python)")
+    E("Websocket-server (Sanic)")
     bck <--"websocket"--> F
     F{{"EEICT (Unity/C#)"}}
     
@@ -37,9 +37,9 @@ flowchart LR
 
 #### Orchestrator
 - Vastuu: vastaa demodatan siirtymisestä eri komponenttien välillä.
-#### Demoinfocs-golang
+#### Parser
 - Vastuu: CS2 \*.dem --> JSON -parseri.
-- https://github.com/markus-wa/demoinfocs-golang
+- Demoinfocs-golang: https://github.com/markus-wa/demoinfocs-golang
 - Tallentaa JSON-datan saman nimiseen tiedostoon kuin lähdetiedosto.
 - Mahdollisuus määrittää JSON-tiedostoon tulevien tapahtumien määrä/sekunti.
     - CS2 tukee enimmillään 64/128 tapahtumaa/sekunti, riippuen CS2 palvelimen asetuksista.
@@ -50,3 +50,4 @@ flowchart LR
 - Siirtää JSON-datan objekti kerrallaan, aiemmin määritetyllä tapahtumaa/sekunti intervallilla, eteenpäin seuraavalle komponentille.
 #### Websocket-server
 - Vastuu: muodostaa websocket protokollaa hyödyntäen yhteyden backendin ja EEICT-sovelluksen välille.
+- Sanic: https://sanic.dev/en/
