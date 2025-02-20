@@ -7,47 +7,65 @@ Backendin sovellusarkkitehtuuri kuvattuna kehittäjän näkökulmasta.
 
 %%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
 
-flowchart LR
+flowchart TB
 
-    A@{ shape: doc, label: "$demodata.DEM"}
-    A --> bck
+    dem@{ shape: doc, label: "$demodata.DEM"}
+    dem --> parser
 
-    subgraph bck [**BACKEND**]
-        orch("Orchestrator (python)")
-        orch -."subprocess.run".-> B
-        orch --> B
-        orch -.-> D
-        orch -.-> E
-        direction TB
-        B("Parser (Demoinfocs-golang)")
-        B --> C
-        C@{ shape: doc, label: "$demodata.JSON"}
-        C --> D
-        D("Interval-transmitter (python)") 
-        D --> E
+    direction TB
+    orch("Orchestrator")
+    orch -.-> parser
+    orch -.-> server
+    
+    subgraph parser ["**Demodata parser**"]
+        worker("Worker")
+        worker <--"subprocess.run"--> B
+        B("DemodataToJSON-parser (Demoinfocs-golang)")
     end
 
-    E("Websocket-server (Sanic)")
-    bck <--"websocket"--> F
-    F{{"EEICT (Unity/C#)"}}
+    parser --- json
+    json@{ shape: doc, label: "$demodata.JSON"}
+    json --> server
+
+    subgraph server ["**Demodata Server**"]
+        direction LR
+        D("JSONchopper") 
+        D --> E
+        E("Websocket-server (Sanic)")
+    end
+    
+    server <--"Websocket"--> eeict
+    eeict{{"EEICT (Unity/C#)"}}
     
 ```
 
 ## Komponenttien vastuut
 
-#### Orchestrator
-- Vastuu: vastaa demodatan siirtymisestä eri komponenttien välillä.
-#### Parser
+##### Orchestrator
+- Vastuu: demodatan siirtymisestä eri komponenttien välillä.
+- Ohjelmointikieli: Python
+
+### Demodata parser
+##### Worker
+- Vastuu: demodatan siirtymisestä parserin läpi
+- Ohjelmointikieli: Python
+##### DemodataToJSON-parser
 - Vastuu: CS2 \*.dem --> JSON -parseri.
+- Ohjelmointikieli: Go
 - Demoinfocs-golang: https://github.com/markus-wa/demoinfocs-golang
 - Tallentaa JSON-datan saman nimiseen tiedostoon kuin lähdetiedosto.
 - Mahdollisuus määrittää JSON-tiedostoon tulevien tapahtumien määrä/sekunti.
     - CS2 tukee enimmillään 64/128 tapahtumaa/sekunti, riippuen CS2 palvelimen asetuksista.
     - Kirjoittaa asetetun intervallin JSON-tiedostoon.
-#### Interval-transmitter
+
+### Demodata Server
+##### JSONchopper
 - Vastuu: pilkkoo JSON-datan EEICT-sovellukselle siirtoa varten.
+- Ohjelmointikieli: Python
 - Lukee parserilta saadun JSON-datan ja intervallin muistiin.
 - Siirtää JSON-datan objekti kerrallaan, aiemmin määritetyllä tapahtumaa/sekunti intervallilla, eteenpäin seuraavalle komponentille.
-#### Websocket-server
+##### Websocket-server
 - Vastuu: muodostaa websocket protokollaa hyödyntäen yhteyden backendin ja EEICT-sovelluksen välille.
+- Ohjelmointikieli: Python
 - Sanic: https://sanic.dev/en/
+
