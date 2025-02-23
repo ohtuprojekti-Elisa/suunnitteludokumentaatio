@@ -29,7 +29,7 @@ flowchart TB
 
     subgraph server ["**Demodata Server**"]
         direction LR
-        D("JSONchopper") 
+        D("JSONchopper (Ijson)") 
         D --> E
         E("Websocket-server (Tornado)")
     end
@@ -68,6 +68,7 @@ Ottaa syötteenä parserin tuottaman JSON-tiedoston ja lähettää sitä objekti
 - Ohjelmointikieli: Python
 - Lukee parserilta saadun JSON-tiedoston muistiin.
 - Siirtää JSON-tiedoston datan objekti kerrallaan, aiemmin määritetyllä tapahtumaa/sekunti intervallilla, eteenpäin seuraavalle komponentille.
+- Hyödyntää kirjastoa: Ijson (https://pypi.org/project/ijson/)
 #### Websocket-server
 - Vastuu: muodostaa websocket protokollaa hyödyntäen yhteyden backendin ja EEICT-sovelluksen välille.
 - Siirtää JSONchopperilta saatua dataa aiemmin määritetyllä tapahtumaa/sekunti intervallilla (esimerkiksi: 64 t/s = 15.625ms)
