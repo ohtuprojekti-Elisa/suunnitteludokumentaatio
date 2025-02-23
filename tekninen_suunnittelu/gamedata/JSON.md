@@ -7,7 +7,7 @@
     "interval": 15.625,
     "total_ticks": 100000,
     "map_name": "dust2",
-    "ticks": [
+    "demodata": [
         {
             "tick": 1,
             "round_number": 1,
