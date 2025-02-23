@@ -31,7 +31,7 @@ flowchart TB
         direction LR
         D("JSONchopper") 
         D --> E
-        E("Websocket-server (Sanic)")
+        E("Websocket-server (Tornado)")
     end
     
     server <--"Websocket"--> eeict
@@ -70,6 +70,7 @@ Ottaa syötteenä parserin tuottaman JSON-tiedoston ja lähettää sitä objekti
 - Siirtää JSON-tiedoston datan objekti kerrallaan, aiemmin määritetyllä tapahtumaa/sekunti intervallilla, eteenpäin seuraavalle komponentille.
 #### Websocket-server
 - Vastuu: muodostaa websocket protokollaa hyödyntäen yhteyden backendin ja EEICT-sovelluksen välille.
+- Siirtää JSONchopperilta saatua dataa aiemmin määritetyllä tapahtumaa/sekunti intervallilla (esimerkiksi: 64 t/s = 15.625ms)
 - Ohjelmointikieli: Python
-- Hyödyntää kirjastoa: Sanic (https://sanic.dev/en/)
+- Hyödyntää kirjastoa: Tornado (https://www.tornadoweb.org/en/stable/)
 
