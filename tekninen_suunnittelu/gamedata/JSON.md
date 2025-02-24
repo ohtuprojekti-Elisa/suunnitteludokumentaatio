@@ -7,9 +7,9 @@
     "map_name": "dust2",
     "demodata": [
         { <--- Tämä lähetetään
-        "tick": 0,
         "data": [
             {
+            "tick": 0,
             "round_number": 1,
             "ct_wins": 1,
             "t_wins": 0,
