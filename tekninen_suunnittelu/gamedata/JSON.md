@@ -1,15 +1,15 @@
 # JSON-datan määrittely
 
-
-
 ```json
 {
     "interval": 15.625,
     "total_ticks": 100000,
     "map_name": "dust2",
     "demodata": [
-        {
-            "tick": 1,
+        { <--- Tämä lähetetään
+        "tick": 0,
+        "data": [
+            {
             "round_number": 1,
             "ct_wins": 1,
             "t_wins": 0,
