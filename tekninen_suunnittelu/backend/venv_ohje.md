@@ -1,6 +1,7 @@
 # venv ohje
 
 - Siirrä ladattu demodata.json `./backend/demodata_server/data/` kansioon.
+  - Varmista, että tiedostonimi on `test_large.json`.
 - Käynnistä Powershell tai CMD.
 - Navigoi `./backend/` kansioon.
 - Luo uusi Python Virtual Environment (venv) komennolla: `python -m venv .venv`.
