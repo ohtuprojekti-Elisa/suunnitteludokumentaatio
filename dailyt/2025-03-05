@@ -1,0 +1,56 @@
+# Daily 05.03.2025
+
+- Discord
+- 18:00 - 19:00
+- Paikalla
+	  - Kristian 
+	  - Teemu
+	  - Santtu
+	  - Santeri
+    - Fabio
+- Osallistujat saapuivat ajallaan
+
+
+### Käsitellyt asiat
+
+Keskustelua tehdyistä asioista. Ohjaaja antoi vertaisarviointiin perustuvaa palautetta; uudistuksia toimintatapoihin.
+Perjantaina muutoksia aikatauluun, sekä user storyt kuntoon.
+
+
+##### Mitä tekivät:
+
+Kristian: Alkanut katsomaan animaatioita. Tutki grapheditoria. Löysi subissuet.
+
+Teemu: Katsoi pieniä taskeja. Alkoi refaktoroimaan serveripuolen python-koodia. 
+Korjasi bugia Fabion kanssa.
+
+Santeri: Parserin kanssa työskennellyt. Lisännyt paljon datakenttiä: pommien sijainnit, pelaajadata yms.
+
+Santtu: Hoitanut mergekonfliktit pois branchista.
+
+Fabio: Sai animaatiobanchin tehtyä. Korjaili hakemistojärjestystä. Sai Teemun serverin pyörimään. Unityn puolella saanut datan tulemaan Unityyn.
+Yrittänyt saada Unity -puolella hahmoja liikkumaan palvelimelta saadun datan mukaan.
+
+
+#### Mitä tulevat tekemään:
+
+Santtu: Jatkaa pelaajien liikedatan kanssa.
+
+Fabio: Keskittyy Unity -puolen hahmojen liikkeeseen ja mahdollisesti jatkaa animaatioiden tuontia.
+
+Kristian: Jatkaa animaatioiden parissa.
+
+Teemu: Jatkaa serveripuolen parissa.
+
+Santeri: Jatkaa parserin kanssa ja tarvittaessa muuttaa json-datan muotoa.
+
+### Muuta
+
+Palautetta ohjaajalta:
+- Tehdyt työtunnit kirjataan heti
+    - Luodaan jokin excel tms. taulukko työtunneille
+    - Ajankäyttösuunnitelmat projektin suhteen muille näkyväksi
+- Puheenjohtaja voisi jakaa puheenvuorot
+- Taskeista vastuussa useampi henkilö
+    - Jokaiselle taskille "valvoja" tekijöiden lisäksi
+        - Korkeintaan viikko yksin yhden taskin parissa
