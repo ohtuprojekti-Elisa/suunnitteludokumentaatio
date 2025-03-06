@@ -19,6 +19,17 @@ Export- asetukset Blenderissä .FBX muotoon:
 - Key All Bones X
 - Force Start/.. X
 
+## Animaatioille ilman meshiä
+
+- Object Types: Armature
+- Transform (Kaikki kolmeen X)
+- Only Deform Bones X
+- Animation X
+- Key All Bones X
+- Force Start/.. X
+- Nimeä animaatio sen mallin mukaan josta haluat periä meshin perittävämesh@animaationimi.fbx
+- Unityssa Model asetuksissa laita preserve hierarchy päälle animaatiolle ja meshille
+
 
 n = eteen
 s =  taakse
