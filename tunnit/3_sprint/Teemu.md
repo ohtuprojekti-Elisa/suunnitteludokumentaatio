@@ -8,3 +8,5 @@
 | 06.03. | 02:00 | WebSocket-serverin koodin refaktorointia ja orchestrator toiminnallisuuden  implementointia backendiin.                                |
 | 07.03. | 02:00 | Daily (Polaris)                                                                                                                        |
 | 07.03. | 02:00 | Unity Profileriin tutustumista ja projektin suorituskyvyn tutkimista sen kautta. Myös muutama refaktorointi websocket client -koodiin. |
+| 09.03. | 04:00 | Backendin ohjelmointia: orchestrator, parser ja server                                                                                 |
+| 10.03. | 01:00 | Backendin ohjelmointia: orchestrator, parser ja server                                                                                 |
