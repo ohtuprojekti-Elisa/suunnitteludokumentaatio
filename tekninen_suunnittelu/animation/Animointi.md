@@ -19,6 +19,8 @@ Export- asetukset Blenderissä .FBX muotoon:
 - Key All Bones X
 - Force Start/.. X
 
+- Tuo Tuodusta gltf tiedosta tekstuurit kansioon unityyn
+
 ## Animaatioille ilman meshiä
 
 - Object Types: Armature
