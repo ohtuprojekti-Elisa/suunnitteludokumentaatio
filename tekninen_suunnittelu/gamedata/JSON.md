@@ -116,6 +116,10 @@ Sisältää listan tickeistä. Kukin tick sisältää sen aikana tapahtuneen pel
 ## players
 Lista pelaajista ja niiden datasta.
 
+**is_ducking**: Onko pelaaja kyykyssä.\
+**is_air**: Onko pelaaja ilmassa.\
+**is_rld**: Lataako pelaaja asettaan.
+
 ## bomb
 Pommin data.
 
