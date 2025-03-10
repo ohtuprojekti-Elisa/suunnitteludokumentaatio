@@ -7,7 +7,7 @@
   "map_name": "de_mirage",
   "ticks": [
     {
-      "tick": 3700,
+        "tick": 3700,
         "round_started": false,
         "t": "HEROIC",
         "ct": "Nemiga Gaming",
@@ -53,9 +53,6 @@
           "x": -1969.03125,
           "y": 450.0319519042969,
           "z": -159.96875,
-          "last_x": 0,
-          "last_y": 0,
-          "last_z": 0,
           "bomb_planted": {
             "planted": false,
             "planter": ""
@@ -109,6 +106,35 @@
           }
         ],
         "decoy_events": null
-      },
-        
+    },     
 ```
+## ticks
+Sisältää listan tickeistä. Kukin tick sisältää sen aikana tapahtuneen pelidatan. 
+
+**round_started**: Näyttää tarkalleen missä tickissä kierros alkoi.
+
+## players
+Lista pelaajista ja niiden datasta.
+
+## bomb
+Pommin data.
+
+**exploded**: "true" näyttää missä tickissä pommi räjähti, muulloin "false".
+
+## kills
+Näyttää tickin aikana tapahtuneen pelaajatapon.
+
+## nades
+Näyttää aktiiviset kranaatit.
+
+## shooting
+Näyttää tickin aikana ampuvat pelaajat (pelkkä steam id).
+
+## smoke_events
+Näyttää listan tickin aikana lauenneista savukranaateista (koordinaatit) (savun aika täytyy laskea Unityssa toistaiseksi).
+
+## infer_events
+Näyttää listan tickin aikana lauenneista tulikranaateista (koordinaatit) (tulen aika täytyy laskea Unityssa toistaiseksi).
+
+## decoy_events
+Näyttää listan tickin aikana lauenneista decoy-kranaateista (koordinaatit) (decoyn aika täytyy laskea Unityssa toistaiseksi).
