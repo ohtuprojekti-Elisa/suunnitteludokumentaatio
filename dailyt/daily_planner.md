@@ -8,9 +8,9 @@ Lisätkää myös nimimerkin perään pieni p, jos paikallaolo kampuksella on pa
 | **09.00** |     |     |  Sip   |     |     |     |     |
 | **10.00** |     |  Sip   |  Sip   |     |     |     |     |
 | **11.00** |     |  Sip   |  Sip   |     |     |     |     |
-| **12.00** |     | Sip, Tp  |  Sip   |     | T   |     |     |
-| **13.00** |     | Tp  |     |     | T   |     |     |
-| **14.00** |     | Tp  |     |     | Sip, T   |     |     |
+| **12.00** |     | Sip, Tp, Sup  |  Sip   |     | T   |     |     |
+| **13.00** |     | Tp, Sup  |     |     | T   |     |     |
+| **14.00** |     | Tp, Sup  |     |     | Sip, T   |     |     |
 | **15.00** |  Fp | Tp  |     |     | Sip, T   |     |     |
 | **16.00** |  Fp | Tp  |     |     | Sip, T   |     |     |
 | **17.00** |  Fp |     |     |     |     |     |     |
