@@ -29,7 +29,7 @@ flowchart TB
 
     subgraph server ["**Demodata Server**"]
         direction LR
-        D("JSONchopper (Ijson)") 
+        D("JSONchopper (ijson)") 
         D --> E
         E("Websocket-server (Tornado)")
     end
@@ -74,4 +74,3 @@ Ottaa syötteenä parserin tuottaman JSON-tiedoston ja lähettää sitä objekti
 - Siirtää JSONchopperilta saatua dataa aiemmin määritetyllä tapahtumaa/sekunti intervallilla (esimerkiksi: 64 t/s = 15.625ms)
 - Ohjelmointikieli: Python
 - Hyödyntää kirjastoa: Tornado (https://www.tornadoweb.org/en/stable/)
-
