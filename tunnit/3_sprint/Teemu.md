@@ -10,3 +10,6 @@
 | 07.03. | 02:00 | Unity Profileriin tutustumista ja projektin suorituskyvyn tutkimista sen kautta. Myös muutama refaktorointi websocket client -koodiin. |
 | 09.03. | 04:00 | Backendin ohjelmointia: orchestrator, parser ja server                                                                                 |
 | 10.03. | 01:00 | Backendin ohjelmointia: orchestrator, parser ja server                                                                                 |
+| 10.03. | 01:00 | Daily (Discord)                                                                                                                        |
+| 10.03. | 01:00 | Backendin käyttöohjeen kirjoittamista                                                                                                  |
+| 10.03. | 00:30 | Daily Planner v0.1                                                                                                                     |
