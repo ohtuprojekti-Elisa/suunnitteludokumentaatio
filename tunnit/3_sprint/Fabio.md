@@ -11,3 +11,6 @@
 | 10.03. | 01:00 | Daily (discord) |
 | 10.03. | 02:30 | Krisun auttaminen tekstuurien kanssa ja aseiden saaminen hahmojen käsiin, sekä dokumentaatiot |
 | 11.03. | 03:00 | Hahmon rotaation säätämistä, kyykkyanimaatio mukaan ja niiden vienti omaan branchiin |
+| 12.03. | 04:00 | Uudet modelit ja animaatiot toimimaan Unitylla, selvitystä animoinnin eriyttämisestä ylä ja alavartalosta |
+| 12.03. | 00:50 | Daily (Discord) |
+| 12.03. | 01:00 | CT hahmoille samat animaatiot ja ase |
