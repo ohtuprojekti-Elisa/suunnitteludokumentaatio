@@ -10,3 +10,4 @@
 | 10.03. | 01:00 | Hahmojen katsesuunnan korjailua |
 | 10.03. | 01:00 | Daily (discord) |
 | 10.03. | 02:30 | Krisun auttaminen tekstuurien kanssa ja aseiden saaminen hahmojen käsiin, sekä dokumentaatiot |
+| 11.03. | 03:00 | Hahmon rotaation säätämistä, kyykkyanimaatio mukaan ja niiden vienti omaan branchiin |
