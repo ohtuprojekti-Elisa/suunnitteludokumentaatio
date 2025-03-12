@@ -13,3 +13,9 @@
 | 10.03. | 01:00 | Daily (Discord)                                                                                                                        |
 | 10.03. | 01:00 | Backendin käyttöohjeen kirjoittamista                                                                                                  |
 | 10.03. | 00:30 | Daily Planner v0.1                                                                                                                     |
+| 10.03. | 00:30 | Backend: parserin build-koodin refaktorointia                                                                                          |
+| 10.03. | 00:15 | Quickfix: demodata json dokumentaation syntaksin korjaus                                                                               |
+| 10.03. | 00:30 | Toimimattomuuden selvittelyä (parseri ja Unity)                                                                                        |
+| 12.03. | 00:30 | Asiakastapaamiseen valmistautumista Santun ja Fabion kanssa (agenda ja demon läpikäynti)                                               |
+| 12.03. | 00:45 | Daily (Discord)                                                                                                                        |
+|        |       |                                                                                                                                        |
