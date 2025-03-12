@@ -8,14 +8,14 @@ Lisätkää myös nimimerkin perään pieni p, jos paikallaolo kampuksella on pa
 | **09.00** |     |     |  Sip   |     |     |     |     |
 | **10.00** |     |  Sip   |  Sip   |     |     |     |     |
 | **11.00** |     |  Sip   |  Sip   |     |     |     |     |
-| **12.00** |     | Sip, Tp, Sup  |  Sip   |     | T   |     |     |
-| **13.00** |     | Tp, Sup  |     |     | T   |     |     |
-| **14.00** |     | Tp, Sup  |     | Sip    | T   |     |     |
-| **15.00** |  Fp | Tp  |     | Sip    | T   |     |     |
-| **16.00** |  Fp | Tp  |     | Sip    | T   |     |     |
-| **17.00** |  Fp |     |     |     |     |     |     |
-| **18.00** |  Fp |     |     |     |     |     |     |
-| **19.00** |     |     |     |     |     |     |     |
-| **20.00** |     |     |     |     |     |     |     |
+| **12.00** |     | Sip, Tp, Sup |K Sip   |     | T   |     |     |
+| **13.00** |     | Tp, Sup |     |K    | T   |     |     |
+| **14.00** |     | KTp, Sup |K     |KSip    | T   |     |     |
+| **15.00** |  KFp | KTp  |K    |KSip    | T   |     |     |
+| **16.00** |  KFp | KTp  |K    |KSip    | T   |     |     |
+| **17.00** |  KFp | K    |     |     |     |     |     |
+| **18.00** |  Fp |  K   |     |     |K    |     |     |
+| **19.00** |     |     |     |     |K    |     |     |
+| **20.00** |     |     |     |     |K    |     |     |
 
 `F = Fabio, K = Kristian, T = Teemu, Si = Santeri, Su = Santtu`
