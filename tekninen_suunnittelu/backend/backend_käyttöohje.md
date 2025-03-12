@@ -1,6 +1,11 @@
 ## Backendin käyttöohje (10.03.2025)
 
 Ohjeet backendin käyttöön (WIP).
+### Huomiot
+
+Jotta backend puolella asiat rullaavat huoletta, tulee ottaa huomioon, että demodata-parseri täytyy kääntää uudelleen jokaisen koodiin tehdyn muutoksen jälkeen. Vanhaa `demoparser.so` tiedostoa ei tarvitse poistaa, kääntäjä ylikirjoittaa sen.
+
+Vanhalla parserilla käännetyt `demodata.json` tiedostot taas täytyy poistaa ja kääntää tarvittaessa uudelleen, jotta parseriin tehdyt json-datan tulostukseen liittyvät muutokset saadaan myös niihin.
 ### Parserin kääntäminen
 
 Go-kielellä ohjelmoitu demodata-parseri on käännettävä ennen käyttöönottoa. Tässä on ohjeet Windows ympäristöä varten (Linux tulee myöhemmin).
