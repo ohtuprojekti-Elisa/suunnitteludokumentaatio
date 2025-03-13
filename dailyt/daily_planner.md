@@ -1,4 +1,4 @@
-# Daily planner (v0.1)
+# Daily planner (v0.3)
 
 Merkatkaa nimimerkillänne, alla olevan mukaisesti, ajankohdat, jotka **eivät sovi** teille tämän periodin kurssien johdosta.
 Lisätkää myös nimimerkin perään pieni p, jos paikallaolo kampuksella on pakollista. Jos ei retroa, sprint planningia tai asiakastapaamista, daily on aina Discordissa.
@@ -19,3 +19,31 @@ Lisätkää myös nimimerkin perään pieni p, jos paikallaolo kampuksella on pa
 | **20.00** |       |              |        |        | K   |
 
 `F = Fabio, K = Kristian, T = Teemu, Si = Santeri, Su = Santtu`
+
+```
+## Dailyjen aikataulut
+
+13.03. eteenpäin.
+
+### Viikot kun **EI OLE** asiakaspalaveria:
+  - MAANANTAI
+    - Klo. 11.00 
+    - Kampus (Luola)
+  - KESKIVIIKKO
+    - Klo. 13.00
+    - Discord
+  - PERJANTAI
+    - Klo. 10.00
+    - Discord
+
+### Viikot kun **ON** asiakaspalaveri:
+  - MAANANTAI
+    - Klo. 11.00
+    - Discord
+  - KESKIVIIKKO
+    - Klo. 13.00
+    - Discord
+  - PERJANTAI
+    - Klo. 10.00
+    - Kampus (neukkari varattava)
+```
