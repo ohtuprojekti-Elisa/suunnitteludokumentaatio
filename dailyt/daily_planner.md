@@ -20,6 +20,8 @@ Lisätkää myös nimimerkin perään pieni p, jos paikallaolo kampuksella on pa
 
 `F = Fabio, K = Kristian, T = Teemu, Si = Santeri, Su = Santtu`
 
+### Discord template
+
 ```
 ## Dailyjen aikataulut
 
