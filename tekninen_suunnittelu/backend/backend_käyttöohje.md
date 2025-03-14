@@ -11,17 +11,19 @@ Vanhalla parserilla käännetyt `demodata.json` tiedostot taas täytyy poistaa j
 Go-kielellä ohjelmoitu demodata-parseri on käännettävä ennen käyttöönottoa. Tässä on ohjeet Windows ympäristöä varten (Linux tulee myöhemmin).
 #### Windows
 
-1. Lataa viimeisin versio `mingw-w64` -kääntäjästä: https://github.com/niXman/mingw-builds-binaries/releases
+1. Lataa ja asenna viimeisin versio Go\:sta: https://go.dev/doc/install
+    - Toimintaan saattamiseksi tarvitaan mahdollisesti uudelleenkäynnistys/-kirjautuminen.
+2. Lataa viimeisin versio `mingw-w64` -kääntäjästä: https://github.com/niXman/mingw-builds-binaries/releases
     1. Suositeltu: `x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev1.7z`
     2. Pura ladattu paketti ja siirrän sen sisältä löytyvä `mingw64` kansio johonkin valitsemaasi paikkaan.
     3. Lisää `mingw64/bin` kansion sijainti käyttöjärjestelmän ympäristömuutujaan `PATH`.
         - https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
         - Ympäristömuuttujan toimintaan saattamiseksi, tarvitaan mahdollisesti uudelleenkäynnistys/-kirjautuminen.
     4. Testaa, että GCC löytyy suorittamalla se valitsemassasi konsolissa komennolla `gcc`.
-2. Navigoi konsolilla parserin kansioon `./backend/demodata_parser/`.
-3. Käännä parseri komennolla `python build.py`.
-4. Sormet ristiin.
-5. Jos ja kun parseri on käännetty, löytyy tiedosto `demoparser.so` kansiosta `./backend/demodata_parser/`.
+3. Navigoi konsolilla parserin kansioon `./backend/demodata_parser/`.
+4. Käännä parseri komennolla `python build.py`.
+5. Sormet ristiin.
+6. Jos ja kun parseri on käännetty, löytyy tiedosto `demoparser.so` kansiosta `./backend/demodata_parser/`.
 
 ### Prosessin käynnistäminen
 
