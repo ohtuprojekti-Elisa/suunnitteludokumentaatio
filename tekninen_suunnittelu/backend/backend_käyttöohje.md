@@ -37,7 +37,7 @@ Kuinka saada "linjasto rullaamaan".
   - CMD: `.venv\Scripts\activate`
     - Jos venv:n aktivointi onnistui, pitäisi komentorivillä näkyä (Powershell) `(.venv) PS {hakemisto}`
 6. Asenna riippuvuudet komennolla `pip install -r requirements.txt`.
-7. Vihdoi, käynnistä EEICT-backend `./backend/` kansiosta komennolla `python eeict.py -f demotiedosto.dem`
+7. Vihdoin voit käynnistää EEICT-backendin `./backend/` kansiosta komennolla `python eeict.py -f demotiedosto.dem`
 8. Kun WebSocket-palvelin on käynnissä ja odottaa uutta yhteyttä, voit yhdistää siihen EEICT-sovelluksella.
 
 Jos jokin kohta ei toiminut tai jäit jumiin, niin kysy `#backend` kanavalla apuja.
