@@ -3,7 +3,7 @@
 Ohjeet backendin käyttöön (WIP).
 ### Huomiot
 
-Jotta backend puolella asiat rullaavat huoletta, tulee ottaa huomioon, että demodata-parseri täytyy kääntää uudelleen jokaisen koodiin tehdyn muutoksen jälkeen. Vanhaa `demoparser.so` tiedostoa ei tarvitse poistaa, kääntäjä ylikirjoittaa sen.
+Jotta backend puolella asiat rullaavat huoletta, tulee ottaa huomioon, että demodata-parseri täytyy kääntää uudelleen jokaisen siihen tehdyn muutoksen jälkeen. Vanhaa `demoparser.so` tiedostoa ei tarvitse poistaa, kääntäjä ylikirjoittaa sen.
 
 Vanhalla parserilla käännetyt `demodata.json` tiedostot taas täytyy poistaa ja kääntää tarvittaessa uudelleen, jotta parseriin tehdyt json-datan tulostukseen liittyvät muutokset saadaan myös niihin.
 ### Parserin kääntäminen
@@ -16,7 +16,7 @@ Go-kielellä ohjelmoitu demodata-parseri on käännettävä ennen käyttöönott
     2. Pura ladattu paketti ja siirrän sen sisältä löytyvä `mingw64` kansio johonkin valitsemaasi paikkaan.
     3. Lisää `mingw64/bin` kansion sijainti käyttöjärjestelmän ympäristömuutujaan `PATH`.
         - https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
-        - Toimintaan saattamiseksi tarvitaan mahdollisesti uudelleenkäynnistys/-kirjautuminen.
+        - Ympäristömuuttujan toimintaan saattamiseksi, tarvitaan mahdollisesti uudelleenkäynnistys/-kirjautuminen.
     4. Testaa, että GCC löytyy suorittamalla se valitsemassasi konsolissa komennolla `gcc`.
 2. Navigoi konsolilla parserin kansioon `./backend/demodata_parser/`.
 3. Käännä parseri komennolla `python build.py`.
@@ -37,7 +37,7 @@ Kuinka saada "linjasto rullaamaan".
   - CMD: `.venv\Scripts\activate`
     - Jos venv:n aktivointi onnistui, pitäisi komentorivillä näkyä (Powershell) `(.venv) PS {hakemisto}`
 6. Asenna riippuvuudet komennolla `pip install -r requirements.txt`.
-7. Käynnistä prosessi `./backend/` kansiosta komennolla `python eeict.py -f demotiedosto.dem`
+7. Vihdoi, käynnistä EEICT-backend `./backend/` kansiosta komennolla `python eeict.py -f demotiedosto.dem`
 8. Kun WebSocket-palvelin on käynnissä ja odottaa uutta yhteyttä, voit yhdistää siihen EEICT-sovelluksella.
 
 Jos jokin kohta ei toiminut tai jäit jumiin, niin kysy `#backend` kanavalla apuja.
