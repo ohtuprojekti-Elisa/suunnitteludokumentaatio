@@ -46,13 +46,15 @@ Jos jokin kohta ei toiminut tai jäit jumiin, niin kysy `#backend` kanavalla apu
 
 ## Yleisten komentojen esimerkit
 
-Peruskäyttö
+##### Peruskäyttö
 
 ```sh
 python eeict.py -f demotiedosto.dem
 ```
 
-Developer moodi
+##### Developer moodi
+
+Developer moodi hyppää parserin yli ja lataa suoraa syötetyt JSON-tiedoston. Parseri myös toistaa annettua tiedostoa silmukassa.
 
 ```sh
 python eeict.py -d -f test/demo.json
