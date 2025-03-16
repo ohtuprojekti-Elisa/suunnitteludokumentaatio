@@ -43,3 +43,17 @@ Kuinka saada "linjasto rullaamaan".
 8. Kun WebSocket-palvelin on käynnissä ja odottaa uutta yhteyttä, voit yhdistää siihen EEICT-sovelluksella.
 
 Jos jokin kohta ei toiminut tai jäit jumiin, niin kysy `#backend` kanavalla apuja.
+
+## Yleisten komentojen esimerkit
+
+Peruskäyttö
+
+```sh
+python eeict.py -f demotiedosto.dem
+```
+
+Developer moodi
+
+```sh
+python eeict.py -d -f test/demo.json
+```
