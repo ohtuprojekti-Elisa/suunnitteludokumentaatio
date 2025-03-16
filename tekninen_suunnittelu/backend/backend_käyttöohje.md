@@ -54,7 +54,7 @@ python eeict.py -f demotiedosto.dem
 
 #### Developer moodi
 
-Developer moodi hyppää parserin yli ja lataa suoraa syötetyt JSON-tiedoston. Serveri myös toistaa annettua tiedostoa silmukassa.
+Developer moodi hyppää parserin yli ja lataa suoraa syötetyn JSON-tiedoston. Serveri myös toistaa annettua tiedostoa silmukassa. Backending demodata-kansiosta löytyy alla kuvattu `demo.json`.
 
 ```sh
 python eeict.py -d -f test/demo.json
