@@ -1,0 +1,35 @@
+# Daily 17.03.2025
+
+- Etänä, Discord
+- 11:00 - 11:45  
+- Paikalla
+    - Teemu
+    - Santtu
+    - Santeri
+    - Fabio
+    - Kristian
+- Osallistujat saapuivat ajallaan
+## Käsitellyt asiat
+
+Mitä kukin tehnyt ja mitä tulevat tekemään. 
+
+#### Mitä tekivät:
+
+- Teemu: Developer moodi serveriin. Pätki Jaon tiedoston 40mb kokoiseksi. Suosittelee käydä tsekkaamaan ohjeet. Kun laittaa -d kun käynnistää palvelimen ja syöttää suoraan JSON tiedoston nii palvelin looppaa tiedostoa ilman että sitä tarvitsee käynnistää uudelleen. Säästää aikaa palvelimen uudelleenkäynnistyksessä ja helpottaa devausta. Reijo Sivenin kanssa varattu opo tapaaminen 13-13:20 keskiviikkona. Laittoi gittiin säännöön, jotta mainiin ei voi puskea suoraan. Puskut tehdään branchien kautta yhden muun hyväksymänä. Squash merget pois päältä. Kaikki commitit sisällytetään.
+- Santeri: Unity konfiguraatio tehty. Ei ole vielä branchia tehty sille. Käytti scriptable objekteja. Objekti pitää aina heittää luokkiin jota sitä tarvitsee. 
+- Fabio: Dessusta kuuluu ääni. Puski perjantain pistol animaatio branchin mainiin. Teemun serverin käyttöönotto.
+- Santtu: Otti rennosti.
+- Kristian: Korjasi defusekit tekstuuriongelman, mutta puskeminen branchiin ei onnistunut.
+
+#### Mitä tulevat tekemään
+
+- Teemu:  Jatkaa backendin tunkkaamisen kanssa jatkaa unity versiokontrollia.
+- Fabio: Työstää ääniä ja tekee työtä animaatioiden eriyttämiseen.
+- Santeri: Uusien unityjuttujen kanssa työtä. Vielä konfiguraatiohommia jäljellä.
+- Santtu: Pitää optimoida ja kattoa outoa bugia.
+- Kristian: Äänien ja asemallien tuonti ja Santerin kanssa työskentely.
+
+## Muuta
+
+- Onko demon playback fps sidonnainen? Playback hidastuu ja nopeutuu. Onko ongelma playermovementissä, backendissa tai bugien aiheuttama?
+- Bugien ratkomiseen kannattaa ladata branchista uusin server developement versio.
