@@ -19,3 +19,6 @@
 |        | 00:45 | Animation separation -branchin läpikäyntiä ja mergen hyväksyminen                                   |
 |        | 02:30 | Backendin yksikkötestien ja docstringien kirjoittamista, bugin korjausta, koodin refaktorointia     |
 |        | 01:00 | Serverin JSON (ijson) parserin refaktorointia tehokkaammaksi. Sis. myös ohjeistukseen tutustumista. |
+| 20.03. | 02:00 | Santerin kanssa parikoodausta: Go-parserin tehokkuuden parantamista/bugin fiksausta                 |
+| 21.03. | 01:00 | Go-parserin muistiongelman ratkomista ja json-logiikan refaktorointia                               |
+|        | 00:45 | Daily                                                                                               |
