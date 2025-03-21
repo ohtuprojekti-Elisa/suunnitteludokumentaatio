@@ -14,3 +14,5 @@
 | 19.03. | 02:00 | Dokumentaation tekeminen aseiden lisäämiseen ja niiden testailu |
 | 19.03. | 01:00 | Daily |
 | 20.03. | 06:00 | Aseiden vaihtamisen toteuttaminen ja siihen liittyvät animaatiot |
+| 21.03. | 00:30 | Daily |
+| 21.03. | 01:30 | Aseiden vaihtamisen korjailua ja dokumentaation päivitystä |
