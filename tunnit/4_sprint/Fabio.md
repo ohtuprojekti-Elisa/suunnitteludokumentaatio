@@ -11,3 +11,6 @@
 | 17.03. | 04:00 | Äänien ja efektien asettaminen aseeseen |
 | 18.03. | 00:30 | Teemun branchin testaaminen ja hyväksyminen |
 | 18.03. | 03:30 | Animaatioiden ylävartalon ja jalkojen erottaminen, sekä kävelyanimaatio hahmoille |
+| 19.03. | 02:00 | Dokumentaation tekeminen aseiden lisäämiseen ja niiden testailu |
+| 19.03. | 01:00 | Daily |
+| 20.03. | 06:00 | Aseiden vaihtamisen toteuttaminen ja siihen liittyvät animaatiot |
