@@ -22,7 +22,8 @@ UnityEditor.TransformWorldPlacementJSON:{"position":{"x":0.005505432840436697,"y
 
 4. Animation/prefab:stä löytyy firePoint.prefab ja MuzzleFlashPoint 1.prefab. Siirrä ne aseeseen hierarchyssa. (Nämä löytyy vasta animation_separation branchista)
 
-5. Lisää aseelle(prefab) komponentit: Gun Script ja Audio Source
+5. Lisää aseelle(prefab) komponentit: Gun Script, Audio Source ja Weapons
+  * Weaponsista valitse mihin kategoriaan ase kuuluu. (Tärkeä, että aseelle tulee oikeat animaatiot!)
 
 6. Muuta asetukset kyseisen aseen mukaan (joutuu varmasti vielä muuttamaan):
 
