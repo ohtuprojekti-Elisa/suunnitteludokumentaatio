@@ -16,3 +16,5 @@
 | 20.03. | 06:00 | Aseiden vaihtamisen toteuttaminen ja siihen liittyvät animaatiot |
 | 21.03. | 00:30 | Daily |
 | 21.03. | 01:30 | Aseiden vaihtamisen korjailua ja dokumentaation päivitystä |
+| 23.03. | 00:30 | Pull requestin hyväksyminen ja mergeämisen ongelmien selvittely |
+| 24.03. | 01:00 | Mergeämisen ongelman ratkaisu ja pull requestin tekeminen | 
