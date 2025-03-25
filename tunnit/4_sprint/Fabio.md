@@ -21,3 +21,8 @@
 | 24.03. | 02:00 | Daily |
 | 24.03. | 02:00 | Yritin korjata liikkumiseen liittyviä animaatioita |
 | 24.03. | 01:00 | CT animaatioiden korjaaminen ja aseiden lisääminen |
+| 25.03. | 01:00 | Aseiden äänien branchin testailu ja selvittäminen |
+| 25.03. | 02:00 | Animaatioiden korjailun selvittämistä ja testailua |
+| 25.03. | 02:00 | Aseiden lisääminen hahmoille ja sen dokumentointi |
+| 25.03. | 00:30 | Pull requestin tarkastelu, hyväksyminen ja mergeäminen |
+| 25.03. | 02:30 | Liikkumiseen liittyvien animaatioiden korjaaminen/opiskelu |
