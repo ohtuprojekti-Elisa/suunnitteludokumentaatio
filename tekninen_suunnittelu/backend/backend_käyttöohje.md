@@ -60,7 +60,7 @@ python eeict.py -h
 Syöttää toteutukselle annetun CS2-demotiedoston.
 
 ```sh
-python eeict.py -f $.dem
+python eeict.py -f $
 ```
 
 #### Loop
@@ -68,7 +68,7 @@ python eeict.py -f $.dem
 Toistaa demotiedostoa silmukassa, kunnes backendin prosessi lopetetaan.
 
 ```sh
-python eeict.py -l -f $.dem
+python eeict.py -l -f $
 ```
 
 #### Overwrite
@@ -76,5 +76,5 @@ python eeict.py -l -f $.dem
 Ylikirjoittaa syötetyn CS2-demotiedoston nimeen sidotut ja aiemin parsitut .json tiedostot. Tämä on tarpeellista esimerkiksi uuden parseriversion kääntämisen jälkeen. On myös mahdollista, että ylikirjoittamisen käyttäminen ratkoo myös backendin toimintaan liittyviä ongelmia, jos niitä kehitystyön aikana ilmenee.
 
 ```sh
-python eeict.py -o -f $.dem
+python eeict.py -o -f $
 ```
