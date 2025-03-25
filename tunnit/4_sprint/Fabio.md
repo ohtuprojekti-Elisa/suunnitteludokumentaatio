@@ -18,6 +18,6 @@
 | 21.03. | 01:30 | Aseiden vaihtamisen korjailua ja dokumentaation päivitystä |
 | 23.03. | 00:30 | Pull requestin hyväksyminen ja mergeämisen ongelmien selvittely |
 | 24.03. | 01:00 | Mergeämisen ongelman ratkaisu ja pull requestin tekeminen |
-| 25.03. | 02:00 | Daily |
-| 25.03. | 02:00 | Yritin korjata liikkumiseen liittyviä animaatioita |
-| 25.03. | 01:00 | CT animaatioiden korjaaminen ja aseiden lisääminen |
+| 24.03. | 02:00 | Daily |
+| 24.03. | 02:00 | Yritin korjata liikkumiseen liittyviä animaatioita |
+| 24.03. | 01:00 | CT animaatioiden korjaaminen ja aseiden lisääminen |
