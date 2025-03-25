@@ -33,25 +33,25 @@ UnityEditor.TransformWorldPlacementJSON:{"position":{"x":0.005505432840436697,"y
 Ohjeet tarkentuvat myöhemmin!!
 Kysykää Discordissa "Aseet ja äänet" langalla, jos tarvitsee tarkennusta tai korjausta.
 
-1. AK-47  / Rifle | Phoenix |
-2. AUG  / Rifle
+1. **AK-47  / Rifle | Phoenix/FBI |**
+2. **AUG  / Rifle | Phoenix/FBI |**
 3. AWP  / Sniper
 4. PP-Bizon / SMG
 5. C4 / Bomb
 6. **Desert Eagle / Pistol  | Phoenix/FBI |**
 7. Decoy Grenade  / Grenade
 8. Dual Berettas  / Dual Pistols
-9. FAMAS  / Rifle
-10. Five-SeveN  / Pistol
+9. **FAMAS  / Rifle | Phoenix/FBI |**
+10. **Five-SeveN  / Pistol  | Phoenix/FBI |**
 11. Flashbang / Grenade
-12. G3SG1 / Rifle
-13. Galil AR  / Rifle
-14. Glock-18  / Pistol  | Phoenix |
+12. **G3SG1 / Rifle | Phoenix/FBI |**
+13. **Galil AR  / Rifle | Phoenix/FBI |**
+14. **Glock-18  / Pistol  | Phoenix/FBI |**
 15. HE Grenade  / Grenade
-16. P2000 / Pistol
+16. **P2000 / Pistol  | Phoenix/FBI |**
 17. Incendiary Grenade  / Grenade
 18. M249  / Heavy
-19. M4A4  / Rifle
+19. **M4A4  / Rifle | Phoenix/FBI |**
 20. MAC-10  / SMG
 21. MAG-7 / Shotgun
 22. Molotov / Grenade
@@ -60,22 +60,24 @@ Kysykää Discordissa "Aseet ja äänet" langalla, jos tarvitsee tarkennusta tai
 25. MP9 / SMG
 26. Negev / Heavy
 27. Nova  / Shotgun
-28. P250  / Pistol
+28. **P250  / Pistol  | Phoenix/FBI |**
 29. P90 / SMG
 30. Sawed-Off / Shotgun
 31. SCAR-20 / Sniper
-32. SG 553  / Rifle
+32. **SG 553  / Rifle | Phoenix/FBI |**
 33. Smoke Grenade / Grenade
 34. SSG 08 / Sniper
-35. Zeus x27  / Pistol
-36. Tec-9 / SMG
+35. **Zeus x27  / Pistol  | Phoenix/FBI |**
+36. **Tec-9 / Pistol  | Phoenix/FBI |**
 37. UMP-45  / SMG
 38. XM1014  / Shotgun
-39. M4A1  / Rifle | FBI |
-40. CZ75 Auto / Pistol
-41. USP-S / Pistol  | FBI |
-42. R8 Revolver / Pistol
+39. **M4A1  / Rifle | Phoenix/FBI |**
+40. **CZ75 Auto / Pistol  | Phoenix/FBI |**
+41. **USP-S / Pistol  | Phoenix/FBI |**
+42. **R8 Revolver / Pistol  | Phoenix/FBI |**
 43. Kevlar Vest / ---
 44. Kevlar + Helmet / ---
 45. Defuse Kit  / ---
 46. **Knife / Knife | Phoenix/FBI |**
+
+**Boldatut** on lisätty molemmille hahmoille.
