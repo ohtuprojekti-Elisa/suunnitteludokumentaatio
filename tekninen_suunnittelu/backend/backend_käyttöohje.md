@@ -44,36 +44,37 @@ Kuinka saada "linjasto rullaamaan".
 
 Jos jokin kohta ei toiminut tai jäit jumiin, niin kysy `#backend` kanavalla apuja.
 
-## Yleisten komentojen esimerkit
+## Toteutuksen komennot ja niiden esimerkit
 
-#### Help!
+Toteutus ottaa syötteenä minkä tahansa CS2:n tuottaman .dem päätteisen tiedoston ($).
+#### Help
 
-Tätä kautta saa varmasti ajankohtaisimman listauksen ominaisuuksista.
+Tätä kautta saa ajankohtaisimman listauksen ominaisuuksista.
 
 ```sh
 python eeict.py -h
 ```
 
-#### Demotiedoston lataaminen
+#### File
 
-Lataa tiedoston parserille, parseri käsittelee sen ja serveri käynnistyy.
+Syöttää toteutukselle annetun CS2-demotiedoston.
 
 ```sh
-python eeict.py -f demotiedosto.dem
+python eeict.py -f $.dem
 ```
 
 #### Loop
 
-Loop moodi toistaa demotiedostoa kunnes backendin prosessi lopetetaan.
+Toistaa demotiedostoa silmukassa, kunnes backendin prosessi lopetetaan.
 
 ```sh
-python eeict.py -l -f demotiedosto.dem
+python eeict.py -l -f $.dem
 ```
 
 #### Overwrite
 
-Ylikirjoittaa vanhat .json tiedostot. Tämä on tarpeellista esimerkiksi parserin buildaamisen jälkeen.
+Ylikirjoittaa syötetyn CS2-demotiedoston nimeen sidotut ja aiemin parsitut .json tiedostot. Tämä on tarpeellista esimerkiksi uuden parseriversion kääntämisen jälkeen. On myös mahdollista, että ylikirjoittamisen käyttäminen ratkoo myös backendin toimintaan liittyviä ongelmia, jos niitä kehitystyön aikana ilmenee.
 
 ```sh
-python eeict.py -o -f demotiedosto.dem
+python eeict.py -o -f $.dem
 ```
