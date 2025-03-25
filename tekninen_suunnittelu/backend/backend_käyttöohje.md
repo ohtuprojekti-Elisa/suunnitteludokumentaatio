@@ -67,7 +67,7 @@ python eeict.py -f demotiedosto.dem
 Loop moodi toistaa demotiedostoa kunnes backendin prosessi lopetetaan.
 
 ```sh
-python eeict.py -l -f test/demo.json
+python eeict.py -l -f demotiedosto.dem
 ```
 
 #### Overwrite
@@ -75,5 +75,5 @@ python eeict.py -l -f test/demo.json
 Ylikirjoittaa vanhat .json tiedostot. Tämä on tarpeellista esimerkiksi parserin buildaamisen jälkeen.
 
 ```sh
-python eeict.py -o -f test/demo.json
+python eeict.py -o -f demotiedosto.dem
 ```
