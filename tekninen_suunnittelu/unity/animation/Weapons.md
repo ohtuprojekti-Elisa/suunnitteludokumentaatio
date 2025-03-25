@@ -1,4 +1,4 @@
-# Pistoolit
+# Aseet
 
 1. Valitse hahmon prefab: Animation/animations/Phoenix.prefab tai Animation/animations/FBI/FBI.prefab
 
@@ -20,6 +20,7 @@ UnityEditor.TransformWorldPlacementJSON:{"position":{"x":0.005505432840436697,"y
 * Tarkista scenessä, että ase on hahmon kädessä ja oikean kokoinen.
 * Jos näet vain edellisen aseen hahmon kädessä, voit piilottaa sen klikkaamalla hierarchyssa kyseistä asetta ja Inspectorissa poistamalla checkboxista ruksi.
 
+## Myöhemmin:
 4. Animation/prefab:stä löytyy firePoint.prefab ja MuzzleFlashPoint 1.prefab. Siirrä ne aseeseen hierarchyssa. (Nämä löytyy vasta animation_separation branchista)
 
 5. Lisää aseelle(prefab) komponentit: Gun Script, Audio Source ja Weapons
@@ -32,49 +33,49 @@ UnityEditor.TransformWorldPlacementJSON:{"position":{"x":0.005505432840436697,"y
 Ohjeet tarkentuvat myöhemmin!!
 Kysykää Discordissa "Aseet ja äänet" langalla, jos tarvitsee tarkennusta tai korjausta.
 
-AK-47
-AUG
-AWP
-PP-Bizon
-C4
-Desert Eagle
-Decoy Grenade
-Dual Berettas
-FAMAS
-Five-SeveN
-Flashbang
-G3SG1
-Galil AR
-Glock-18
-HE Grenade
-P2000
-Incendiary Grenade
-M249
-M4A4
-MAC-10
-MAG-7
-Molotov
-MP7
-MP5-SD
-MP9
-Negev
-Nova
-P250
-P90
-Sawed-Off
-SCAR-20
-SG 553
-Smoke Grenade
-SSG 08
-Zeus x27
-Tec-9
-UMP-45
-XM1014
-M4A1
-CZ75 Auto
-USP-S
-R8 Revolver
-Kevlar Vest
-Kevlar + Helmet
-Defuse Kit
-Knife
+1. AK-47  / Rifle | Phoenix |
+2. AUG  / Rifle
+3. AWP  / Sniper
+4. PP-Bizon / SMG
+5. C4 / Bomb
+6. **Desert Eagle / Pistol  | Phoenix/FBI |**
+7. Decoy Grenade  / Grenade
+8. Dual Berettas  / Dual Pistols
+9. FAMAS  / Rifle
+10. Five-SeveN  / Pistol
+11. Flashbang / Grenade
+12. G3SG1 / Rifle
+13. Galil AR  / Rifle
+14. Glock-18  / Pistol  | Phoenix |
+15. HE Grenade  / Grenade
+16. P2000 / Pistol
+17. Incendiary Grenade  / Grenade
+18. M249  / Heavy
+19. M4A4  / Rifle
+20. MAC-10  / SMG
+21. MAG-7 / Shotgun
+22. Molotov / Grenade
+23. MP7 / SMG
+24. MP5-SD  / SMG
+25. MP9 / SMG
+26. Negev / Heavy
+27. Nova  / Shotgun
+28. P250  / Pistol
+29. P90 / SMG
+30. Sawed-Off / Shotgun
+31. SCAR-20 / Sniper
+32. SG 553  / Rifle
+33. Smoke Grenade / Grenade
+34. SSG 08 / Sniper
+35. Zeus x27  / Pistol
+36. Tec-9 / SMG
+37. UMP-45  / SMG
+38. XM1014  / Shotgun
+39. M4A1  / Rifle | FBI |
+40. CZ75 Auto / Pistol
+41. USP-S / Pistol  | FBI |
+42. R8 Revolver / Pistol
+43. Kevlar Vest / ---
+44. Kevlar + Helmet / ---
+45. Defuse Kit  / ---
+46. **Knife / Knife | Phoenix/FBI |**
