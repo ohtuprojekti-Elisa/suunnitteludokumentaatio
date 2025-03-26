@@ -48,7 +48,7 @@ How to "get the pipeline running."
 
 1. TBA
 
-## Backend Commands and Examples
+## Backend commands and examples
 
 The backend takes any `.dem` file produced by CS2 as input (`$` = your file).
 
