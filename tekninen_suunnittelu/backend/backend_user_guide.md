@@ -2,7 +2,7 @@
 
 Instructions for settings up virtual environment, compiling binaries, starting up and using the backend for Elisa Esports Immersive Coaching Tool (EEICT).
 
-## Compiling the demodata parser
+## Compiling the demo data parser
 
 The demo data parser, written in Go, must be compiled before use. Here are the instructions for Windows.
 
