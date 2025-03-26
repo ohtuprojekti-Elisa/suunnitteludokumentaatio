@@ -36,3 +36,4 @@
 | 26.03. | 01:00 | Unity projektin suorituskykyongelmien ratkomista Profilerilla, jotta seuraava refaktorointisteppi onnistuu.                                                                         |
 |        | 00:45 | Daily                                                                                                                                                                               |
 |        | 02:00 | 3D-kartan valojen optimointia (bake), Unityn opiskelua suorituskyvyn optimoinnin perspektiivistä.                                                                                   |
+|        | 00:45 | Backend ohjeistuksen kääntäminen englanniksi.                                                                                                                                       |
