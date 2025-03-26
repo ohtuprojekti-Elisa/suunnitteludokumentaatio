@@ -9,7 +9,7 @@ Backend consists of CS2 demodata parser and websocket server.
 - Python
 - Go
 #### Deployment guide
-- [backend_käyttöohje](backend/backend_käyttöohje.md)
+- [backend_user_guide](backend/backend_user_guide.md)
 - [cs2-demodata_to_eeict](backend/cs2-demodata_to_eeict.md)
 - [eeict-backend](backend/eeict-backend.md)
 #### Other related documents / files
