@@ -2,8 +2,6 @@
 
 Instructions for settings up virtual environment, compiling binaries, starting up and using the backend for Elisa Esports Immersive Coaching Tool (EEICT).
 
----
-
 ## Compiling the demodata parser
 
 The demo data parser, written in Go, must be compiled before use. Here are the instructions for Windows.
@@ -50,8 +48,6 @@ How to "get the pipeline running."
 
 1. TBA
 
----
-
 ## Backend Commands and Examples
 
 The backend takes any `.dem` file produced by CS2 as input (`$` = your file).
@@ -87,8 +83,6 @@ Overwrites previously parsed `.json` files tied to the CS2 demo file name. This 
 ```sh
 python eeict.py -o -f $
 ```
-
----
 
 ## Nota bene!
 
