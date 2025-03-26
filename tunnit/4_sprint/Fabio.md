@@ -26,3 +26,4 @@
 | 25.03. | 02:00 | Aseiden lisääminen hahmoille ja sen dokumentointi |
 | 25.03. | 00:30 | Pull requestin tarkastelu, hyväksyminen ja mergeäminen |
 | 25.03. | 02:30 | Liikkumiseen liittyvien animaatioiden korjaaminen/opiskelu |
+| 26.03. | 02:00 | Liikkumiseen liittyvien ongelmien korjailua |
