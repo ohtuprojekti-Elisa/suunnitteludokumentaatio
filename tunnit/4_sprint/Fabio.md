@@ -27,3 +27,10 @@
 | 25.03. | 00:30 | Pull requestin tarkastelu, hyväksyminen ja mergeäminen |
 | 25.03. | 02:30 | Liikkumiseen liittyvien animaatioiden korjaaminen/opiskelu |
 | 26.03. | 02:00 | Liikkumiseen liittyvien ongelmien korjailua |
+| 26.03. | 00:40 | Daily |
+| 26.03. | 00:30 | CT:lle samat animaatiokorjaukset kuin Terroristeilla |
+| 26.03. | 01:00 | Yritin saada ääniä aseisiin |
+| 27.03. | 00:30 | Aseiden äänien toteuttamisen selvittäminen |
+| 27.03. | 01:00 | Melkein loppujen aseiden lisääminen hahmoille |
+| 27.03. | 01:30 | Yritin tuoda/etsiä kranaatin heittoon ja puukottamiseen liittyviä animaatioita |
+| 27.03. | 01:00 | Presentaation tekemistä ja kranaatin efektien suunnittelua Santerin kanssa |
