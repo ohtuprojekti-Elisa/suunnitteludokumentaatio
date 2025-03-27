@@ -37,3 +37,11 @@
 |        | 00:45 | Daily                                                                                                                                                                               |
 |        | 02:00 | 3D-kartan valojen optimointia (bake), Unityn opiskelua suorituskyvyn optimoinnin perspektiivistä.                                                                                   |
 |        | 00:45 | Backend ohjeistuksen kääntäminen englanniksi.                                                                                                                                       |
+|        | 02:00 | Uusi backendin toiminnallisuus: palvelin lähettää match config datan clientille ja client hyödyntää sen (mm. lerpDuration).                                                         |
+|        | 01:00 | Player3DMovement koodin refaktorointia ja Unity Profilerin kanssa suorituskyvyn analysointia.                                                                                       |
+| 27.03. | 01:30 | Player3DMovement koodin refaktorointia ja Unity Profilerin kanssa suorituskyvyn analysointia.                                                                                       |
+|        | 00:30 | Santun occlusion culling -haaran läpikäyntiä ja testaamista.                                                                                                                        |
+|        | 02:30 | Santun haaraan optimointia ja muutoksia.                                                                                                                                            |
+|        | 01:00 | Culling bugin metsästystä ja ratkaisun löytäminen.                                                                                                                                  |
+|        | 01:30 | Lisäbugien ratkomista (map grab, pelaajien varjot), sekä pelaajahahmojen tekstien hienosäätöä.                                                                                      |
+|        | 00:30 | Presentaation tuottamista (backend)                                                                                                                                                 |
