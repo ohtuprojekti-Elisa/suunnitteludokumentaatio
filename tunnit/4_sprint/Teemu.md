@@ -33,7 +33,7 @@
 | 25.03. | 03:00 | Player3DMovement.cs interpolaation refaktorointia.                                                                                                                                  |
 |        | 00:30 | Fabion pull requestin läpikäyntiä                                                                                                                                                   |
 |        | 00:30 | Backend dokumentaation päivitystä.                                                                                                                                                  |
-| 26.03. | 01:00 | Unity projektin suorituskykyongelmien ratkomista Profilerilla, jotta seuraava refaktorointisteppi onnistuu.                                                                         |
+| 26.03. | 02:00 | Unity projektin suorituskykyongelmien ratkomista Profilerilla, jotta seuraava refaktorointisteppi onnistuu.                                                                         |
 |        | 00:45 | Daily                                                                                                                                                                               |
 |        | 02:00 | 3D-kartan valojen optimointia (bake), Unityn opiskelua suorituskyvyn optimoinnin perspektiivistä.                                                                                   |
 |        | 00:45 | Backend ohjeistuksen kääntäminen englanniksi.                                                                                                                                       |
@@ -45,3 +45,4 @@
 |        | 01:00 | Culling bugin metsästystä ja ratkaisun löytäminen.                                                                                                                                  |
 |        | 01:30 | Lisäbugien ratkomista (map grab, pelaajien varjot), sekä pelaajahahmojen tekstien hienosäätöä.                                                                                      |
 |        | 00:30 | Presentaation tuottamista (backend)                                                                                                                                                 |
+|        | 00:30 | Asiakasdemon koostamista.                                                                                                                                                           |
