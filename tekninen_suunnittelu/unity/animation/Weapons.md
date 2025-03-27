@@ -35,8 +35,8 @@ Kysykää Discordissa "Aseet ja äänet" langalla, jos tarvitsee tarkennusta tai
 
 1. **AK-47  / Rifle | Phoenix/FBI |**
 2. **AUG  / Rifle | Phoenix/FBI |**
-3. AWP  / Sniper
-4. PP-Bizon / SMG
+3. **AWP  / Sniper | Phoenix/FBI |**
+4. **PP-Bizon / SMG | Phoenix/FBI |**
 5. C4 / Bomb
 6. **Desert Eagle / Pistol  | Phoenix/FBI |**
 7. Decoy Grenade  / Grenade
@@ -50,27 +50,27 @@ Kysykää Discordissa "Aseet ja äänet" langalla, jos tarvitsee tarkennusta tai
 15. HE Grenade  / Grenade
 16. **P2000 / Pistol  | Phoenix/FBI |**
 17. Incendiary Grenade  / Grenade
-18. M249  / Heavy
+18. **M249  / Heavy | Phoenix/FBI |**
 19. **M4A4  / Rifle | Phoenix/FBI |**
-20. MAC-10  / SMG
-21. MAG-7 / Shotgun
+20. **MAC-10  / SMG | Phoenix/FBI |**
+21. **MAG-7 / Shotgun | Phoenix/FBI |**
 22. Molotov / Grenade
-23. MP7 / SMG
-24. MP5-SD  / SMG
-25. MP9 / SMG
-26. Negev / Heavy
-27. Nova  / Shotgun
+23. **MP7 / SMG | Phoenix/FBI |**
+24. **MP5-SD  / SMG | Phoenix/FBI |**
+25. **MP9 / SMG | Phoenix/FBI |**
+26. **Negev / Heavy | Phoenix/FBI |**
+27. **Nova  / Shotgun | Phoenix/FBI |**
 28. **P250  / Pistol  | Phoenix/FBI |**
-29. P90 / SMG
-30. Sawed-Off / Shotgun
-31. SCAR-20 / Sniper
+29. **P90 / SMG | Phoenix/FBI |**
+30. **Sawed-Off / Shotgun | Phoenix/FBI |**
+31. **SCAR-20 / Sniper | Phoenix/FBI |**
 32. **SG 553  / Rifle | Phoenix/FBI |**
 33. Smoke Grenade / Grenade
-34. SSG 08 / Sniper
+34. **SSG 08 / Sniper | Phoenix/FBI |**
 35. **Zeus x27  / Pistol  | Phoenix/FBI |**
 36. **Tec-9 / Pistol  | Phoenix/FBI |**
-37. UMP-45  / SMG
-38. XM1014  / Shotgun
+37. **UMP-45  / SMG | Phoenix/FBI |**
+38. **XM1014  / Shotgun | Phoenix/FBI |**
 39. **M4A1  / Rifle | Phoenix/FBI |**
 40. **CZ75 Auto / Pistol  | Phoenix/FBI |**
 41. **USP-S / Pistol  | Phoenix/FBI |**
