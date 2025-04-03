@@ -12,3 +12,4 @@
 |        | 05:00 | Pommin visualisoinnin toteutus (malli, sijainti, vilkkuva valo, luonti/poisto, räjähdys)|
 | 02.04  | 02:00 | Pommin räjähdyksen toimimaan saanti ja oikea ajoitus |
 |        | 02:00 | Daily (Discord) |
+|        | 01:30 | Pomminpurkuun oma vilkkuva valo ja pommille isompi räjähdys |
