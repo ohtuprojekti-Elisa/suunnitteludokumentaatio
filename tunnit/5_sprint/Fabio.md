@@ -13,3 +13,5 @@
 | 02.04  | 02:00 | Pommin räjähdyksen toimimaan saanti ja oikea ajoitus |
 |        | 02:00 | Daily (Discord) |
 |        | 01:30 | Pomminpurkuun oma vilkkuva valo ja pommille isompi räjähdys |
+| 03.04  | 00:30 | Kranaatti- animaatiot alkuun |
+| 04.04  | 00:30 | Daily (Discord) |
