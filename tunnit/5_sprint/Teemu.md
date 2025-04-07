@@ -8,7 +8,16 @@
 |        | 02:00 | Sprint planning (Kumpula)                                                             |
 |        | 00:30 | Muistiinpanojen puhtaaksi kirjoittamista                                              |
 |        | 02:00 | Websocket bufferin suunnittelua, rakentamista ja testaamista serveriin ja clienttiin. |
-| 01.03. | 03:00 | Websocket bufferin suunnittelua, rakentamista ja testaamista serveriin ja clienttiin. |
-| 02.03. | 02:00 | Daily                                                                                 |
+| 01.04. | 03:00 | Websocket bufferin suunnittelua, rakentamista ja testaamista serveriin ja clienttiin. |
+| 02.04. | 02:00 | Daily                                                                                 |
 |        | 03:30 | Websocket bufferin suunnittelua, rakentamista ja testaamista serveriin ja clienttiin. |
 |        | 00:30 | Bufferin toiminnan dokumentointia                                                     |
+|        | 00:30 | Handover ja "json vs ijson" dokumentaation luonti ja päivitys                         |
+|        | 00:15 | "pull-request" ja "bugs" -kanavat luotu                                               |
+| 04.04. | 00:30 | Daily                                                                                 |
+|        | 02:15 | Ryhmän kesken Unity/JSON suorituskykybugin metsästystä                                |
+| 05.04. | 02:00 | Server.py:n bufferin ohjelmointia ja refaktorintia                                    |
+| 06.04. | 01:30 | Bufferien toimintaperiaatteiden opiskelua                                             |
+|        | 02:00 | Serverin ja clientin bufferin ohjelmointia                                            |
+| 07.04. | 00:45 | Daily                                                                                 |
+|        | 03:00 | Ensimmäinen toimiva versio serverin purske lähetyksestä ja clientin bufferoinnista.   |
