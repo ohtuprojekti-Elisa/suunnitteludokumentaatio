@@ -15,3 +15,5 @@
 |        | 01:30 | Pomminpurkuun oma vilkkuva valo ja pommille isompi räjähdys |
 | 03.04  | 00:30 | Kranaatti- animaatiot alkuun |
 | 04.04  | 00:30 | Daily (Discord) |
+|        | 03:00 | Animaatio kontrollerin "Any state" käyttöönotto ja siirtymien uudelleen rakennus |
+|        | 02:00 | Tiimin kesken "pelinopeus"- ongelman selvittämistä (Discord) | 
