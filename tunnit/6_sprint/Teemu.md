@@ -20,3 +20,13 @@
 | 16.04. | 02:00 | Laserien mergeeämistä performance haaraan ja niiden hienosäätöä                                        |
 |        | 02:30 | Daily                                                                                                  |
 |        | 00:30 | Fabion muutosten mergeämistä performanceen ja pull requestin teko                                      |
+|        | 01:00 | Viimeisten valojen asettelu ja niiden bake.                                                            |
+|        | 00:30 | Pikapalaveri tiimin kanssa Discordissa                                                                 |
+|        | 02:00 | Valojen lisäämistä ja niiden bake. Siluettien korjaus.                                                 |
+|        | 02:00 | Decalien irroittaminen alkuperäisestä kartasta Santulle siistimpää implementointia varten.             |
+| 17.04. | 01:00 | Puuttuneiden decalien ja meshien lisäämistä.                                                           |
+|        | 02:00 | Valojen hienosäätöä mm. Santerin kommenttien ja kuvien mukaan                                          |
+| 18.04. | 02:30 | Viimeisten (toivottavasti) valojen asettelua ja niiden bake.                                           |
+|        | 01:00 | Valo ja render tason kanssa optimointia                                                                |
+|        | 00:30 | XR ohjainten valo ja niiden uudet materiaalit                                                          |
+|        | 01:00 | Meshien määrän supistaminen kahdesta yhteen                                                            |
